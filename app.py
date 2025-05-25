@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-from kerykeion import Chart
+from kerykeion.charts import KerykeionChart as Chart
 
 app = Flask(__name__)
 
